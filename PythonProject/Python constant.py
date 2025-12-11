@@ -1,0 +1,2 @@
+DAY_LA_HANG_SO=2000
+print(DAY_LA_HANG_SO)
