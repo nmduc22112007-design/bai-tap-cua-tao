@@ -12,5 +12,5 @@ def so_chinh_phuong(n):
         if n % i == 0:
             tong_uoc += i
     return tong_uoc == n
-so_hoan_hao = [x for x in arr if so_chinh_phuong(x)]
+so_chinh_phuong = [x for x in arr if so_chinh_phuong(x)]
 print(f"Các số chính phương trong chuỗi là {so_chinh_phuong}")
