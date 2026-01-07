@@ -46,5 +46,5 @@ def tong_diem_thap_nhat(danh_sach):
 if __name__ == '__main__':
     danh_sach = nhap_hoc_sinh()
     ghi_file(danh_sach)
-
+#ddd
 

@@ -70,4 +70,4 @@ while True:
         print("Thoát chương trình")
         break
     else:
-        print("Lựa chọn không hợp lệ, vui lòng thử lại\n")
+        print("Lựa chọn không hợp lệ, vui lòng thử lại\n")#nah

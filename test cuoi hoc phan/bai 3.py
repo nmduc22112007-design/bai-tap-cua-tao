@@ -5,4 +5,4 @@ def tong_so_le(n):
     if n % 2 != 0:
         return n + tong_so_le(n - 2)
     return tong_so_le(n - 1)
-print(tong_so_le(n))
+print(tong_so_le(n))#v

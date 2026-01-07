@@ -18,4 +18,4 @@ print(f"Insertion Sort (đảo ngược): {arr}")
 if len(arr) >= 3:
     third_max = arr[2]
     vi_tri = [i for i, x in enumerate(arr) if x == third_max]
-    print(f"Giá trị lớn thứ ba: {third_max}, vị trí: {vi_tri}")
+    print(f"Giá trị lớn thứ ba: {third_max}, vị trí: {vi_tri}")#cf
