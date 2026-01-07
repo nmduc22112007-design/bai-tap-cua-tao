@@ -1,0 +1,3 @@
+BIT123; Nguyen Van B; Thanh Hoa
+BIT124; Nguyen Thi C; Nam Dinh
+BIT125; Nguyen Thanh Tung; 36
