@@ -1,0 +1,3 @@
+BIT250001,Nguyễn Văn Mười,8.0,6.0,9.0
+BIT250002,Trần Quốc Sang,9.0,6.0,9.0
+BIT250003,Nguyễn Duy,6.0,9.0,6.0
