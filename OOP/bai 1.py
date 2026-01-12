@@ -4,15 +4,11 @@ class SinhVien:
         self.ho_ten = ho_ten
         self.tuoi = tuoi
         self.que_quan = que_quan
-
     def __str__(self):
         return f"Mã: {self.ma_sv}, Họ tên: {self.ho_ten}, Tuổi: {self.tuoi}, Quê quán: {self.que_quan}"
-
-
 class QuanLySinhVien:
     def __init__(self):
         self.danh_sach = []
-
     def nhap_danh_sach(self):
         n = int(input("Nhập số lượng sinh viên: "))
         for i in range(n):
@@ -23,7 +19,6 @@ class QuanLySinhVien:
             que_quan = input("Quê quán: ")
             sv = SinhVien(ma_sv, ho_ten, tuoi, que_quan)
             self.danh_sach.append(sv)
-
     def hien_thi_tuoi_tren_19(self):
         print("\nDanh sách sinh viên có tuổi trên 19:")
         found = False
@@ -33,8 +28,6 @@ class QuanLySinhVien:
                 found = True
         if not found:
             print("Không có sinh viên nào có tuổi trên 19")
-
-
 if __name__ == "__main__":
     ql = QuanLySinhVien()  # tạo một lần, bên ngoài vòng lặp
     while True:

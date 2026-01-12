@@ -10,6 +10,7 @@ def nhap_sach():
     n = int(input("Nhập số lượng sách:"))
     danh_sach = []
     for i in range(n):
+
         print(f"Nhập thông tin cho cuốn sách thứ {i+1}:\n")
         ma_sach = input("Nhập mã sách:")
         ten_sach = input("Nhập tên sách:")
