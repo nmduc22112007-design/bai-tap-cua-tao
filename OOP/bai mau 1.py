@@ -68,3 +68,10 @@ def menu():
         else:
             print("Lua chon khong hop le!")
 menu()
+
+
+
+
+
+
+#day la cau test lenh
