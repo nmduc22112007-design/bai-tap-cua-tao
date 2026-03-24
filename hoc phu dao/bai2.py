@@ -1,17 +1,17 @@
 n = int(input("Nhap vao n so phan tu(so nguyen): "))
 arr = []
-for i in range(n):
+for i in range(0,n):
     x = int(input(f"nhap vao phan tu thu {i+1}: "))
     arr.append(x)
 #cau a:
 m = 0
 for i in range(0, len(arr)):
     m += int(arr[i])
-print(m)
+print("tong: ",m)
 #cau b:
-print(m/len(arr))
+print("tbc: ",m/n)
 #cau c:
-print(max(arr))
+print("gia tri lon nhat:",max(arr))
 #cau d:
 def bubble_sort(arr):
     n = len(arr)
@@ -21,7 +21,7 @@ def bubble_sort(arr):
             if arr[j] < arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
                 swapped = True
-            print(f"Bước {i + 1}: {arr}")
+        print(f"Bước {i+1}: {arr}")
         if not swapped:
             break
 bubble_sort(arr)
@@ -40,4 +40,4 @@ def binary_search(arr,target):
             right = mid - 1
     return -1
 result = binary_search(arr,c)
-print("Tìm thấy ở vị trí thứ:" if result != -1 else "Không tìm thấy", result)
+print(f"Tìm thấy giá trị {c} ở vị trí thứ:" if result != -1 else "Không tìm thấy", result)
